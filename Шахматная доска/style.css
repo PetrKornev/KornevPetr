@@ -1,0 +1,39 @@
+table {
+    width: 550px;
+    height: 550px;
+}
+
+tr:nth-child(2n+3) td:nth-child(-2n+8){
+    background-color: black;
+}
+tr:nth-child(-2n+8) td:nth-child(2n+3){
+    background-color: black;
+}
+td:nth-child(1) {
+    background-color: #91ef91;
+    border: 1px solid #838e83;
+}
+td:nth-child(10){
+    background-color: #91ef91;
+    border: 1px solid #838e83;
+}
+tr:nth-child(1)  {
+    background-color: #91ef91;
+}
+tr:nth-child(10) {
+    background-color: #91ef91;
+}
+.top {
+    height: 25px;
+}
+.border {
+    width: 25px;
+}
+tr:nth-child(1) td:nth-child(1n+1){
+    border: 1px solid #838e83;
+}
+tr:nth-child(10) td:nth-child(1n+1) {
+    border: 1px solid #838e83;
+}
+
+ 
